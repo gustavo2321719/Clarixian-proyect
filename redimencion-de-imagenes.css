@@ -6,24 +6,23 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+.portada-mayor{
+  display:flex;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.divDePortada{
+  width: 25%;
+  align-items: top;
+}
 
-.portada{
+img.portada{
   width: 92%;
   height:35vw;
   display: block;
   margin: 0 auto;
 }
 
-.portada-mayor{
-  display:flex;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
-.divDePortada{
-  width: 25%;
-  align-items: top;
-}
 div{
   margin: 0 auto;
   display: grid;
