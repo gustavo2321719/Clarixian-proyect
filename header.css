@@ -14,13 +14,27 @@ header{
  }
 
 p{
+  padding-left: 10px;
   color:white;
+  font-size: 5vh;
+  border: 1px solid #ef0b0b;
 }
 
+
+a{
+  text-decoration: none;
+  color: rgb(28, 187, 223);
+  font-size: 2vw;
+  border: 1px solid #000000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 a.encabezado{
     padding: 10px;
     margin-right: 20px;
     text-decoration: none;
-    font-size: 20px;
+    width: auto;
     color:hsl(294, 65%, 49%);
 }

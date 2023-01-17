@@ -1,5 +1,5 @@
-img{
-  width: 900px;
+.capitulo{
+  width: 95%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -7,23 +7,36 @@ img{
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 800px)
-{ 
-  img {
-    width: 100vh;
-  }
+.portada{
+  width: 92%;
+  height:35vw;
+  display: block;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 650px)
-{ 
-  img {
-    width: 80vh;
-  }
+.portada-mayor{
+  display:flex;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
-@media screen and (max-width: 580px)
-{ 
-  img {
-    width: 70vh;
-  }
+.divDePortada{
+  width: 25%;
+  align-items: top;
+}
+div{
+  margin: 0 auto;
+  display: grid;
+  border: 1px solid #18a83e;
+}
+.titulo-de-manhwa{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 6%;
+  border: 1px solid #9b12b3;
+}
+.imagen-de-portada{
+  display:flex;
 }
