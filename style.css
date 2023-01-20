@@ -6,6 +6,7 @@ body{
 }
 a{
     text-decoration: none;
+    font-size: 3vh;
 }
 
 .imagen-proyecto{
@@ -55,12 +56,51 @@ ul.encabezado{
     margin-top: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: aquamarine;
 }
 
 h3{
     padding-left: 15px;
 }
 header{
+    background-color: aquamarine;
+}
+
+h2.titulo-capitulo{
+    display: flex;
+    justify-content: center;
+}
+
+.portada-proyecto{
+    width: 200px;
+}
+
+.principal{
+    display: flex;
+    padding:30px;
+    gap: 20px;
+    max-width: 800px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+.todo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.imagen{
+    display: flex;
+    align-items: center;
+}
+
+.lista-capitulos{
+    display: grid;
+    place-content: center;
+    width: 350px;
+}
+
+.list{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
     background-color: aquamarine;
 }
